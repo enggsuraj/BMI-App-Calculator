@@ -4,6 +4,8 @@ BMI App calculator is a simple Javascript based Body Mass Index of a person calc
 
 ![BMI](https://user-images.githubusercontent.com/6918020/92306520-5acd3500-efad-11ea-8582-7180b78e7c1f.png)
 
+Link: https://bmiapp-blogtheorem.herokuapp.com/
+
 ### Installing
 
 ```

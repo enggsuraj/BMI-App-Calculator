@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/queries.css">
+  <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/logo-black.png" type="image/icon type">
+<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section>
+    
+    <!-- MAIN -->
+    <div class="container">
+
+      <div class="heading">
+        <h1>BMI CALCULATOR</h1>
+      </div>
+    
+      <select name="BMIMethod" id="BMIMethod">
+        <option value="">Select One …</option>
+        <option value="kg/cm">kg/cm</option>
+        <option value="pound/inch">pound/inch</option>
+      </select>
+      
+
+      <div class="content"></div>
+   
+      <div class="bmi_block">
+        <h3>Your BMI : </h3>&nbsp;
+        <h3 id="BMIResult"></h3>
+      </div>
+
+      <div class="status_color">
+        <p id="status"></p>
+      </div>
+
+      <div id="bmi_chart">
+        <img src="img/BMI.jpg">
+      </div><br>
+
+      <button id="btn-submit">Submit</button>
+      <button id="btn-reset">Reset</button>
+  
+      <!-- FOOTER -->
+      <footer>
+        <ul>
+            <li><a href="https://github.com/enggsuraj"><i class="ion-social-github icon-small icon"></i></a></li>
+            <li><a href="https://www.instagram.com/blogtheorem/"><i class="ion-social-instagram icon-small icon"></i></a></li>
+            <li><a href="http://www.blogtheorem.com/"><i class="ion-android-laptop icon-small icon"></i></a></li>
+            <li><a href="https://www.buymeacoffee.com/blogtheorem"><i class="ion-coffee icon-small icon"></i></a></li>
+        </ul>
+    </footer>
+
+    <p id="p-ending">made by blogtheorem</p>
+
+    </div>
+  </section>
+
+  <script type="module" src="/src/index.js"></script>
+</body>
+</html>

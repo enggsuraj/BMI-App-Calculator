@@ -1,0 +1,15 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "Fitness BMI Calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/app.js"
+  },
+  "author": "enggsuraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.0"
+  }
+}

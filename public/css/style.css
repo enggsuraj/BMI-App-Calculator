@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #2a2c29;
+  margin-top: 15px;
+}
+
+.container {
+  background-color: #2a2c29;
+  color: white;
+  padding: 10px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0px;
+  background: linear-gradient(315deg, #262825, #2d2f2c);
+  box-shadow: -5px -5px 18px #111210, 5px 5px 18px #434642;
+}
+
+h1,
+h3,
+footer > p {
+  font-family: "Kufam", cursive;
+}
+
+/******************* MAIN  *******************/
+#p-ending {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Kufam", cursive;
+}
+
+.bmi_block {
+  display: flex;
+  height: 35px;
+  justify-content: center;
+}
+
+.status_color {
+  width: 30%;
+  color: white;
+  margin: 0 auto;
+}
+
+#status {
+  padding: 5px;
+}
+
+#bmi_chart img {
+  width: 85%;
+}
+
+#btn-submit,
+#btn-reset,
+#BMIMethod,
+#weight,
+#height,
+#Feet,
+#Inches {
+  padding: 5px 15px;
+}
+
+.status_color,
+#BMIMethod {
+  margin: 10px auto;
+}
+
+.content,
+.heading,
+.bmi_block,
+#bmi_chart {
+  padding: 10px;
+}
+
+/******************* FOOTER *******************/
+
+footer {
+  padding: 10px 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 30px;
+  padding: 0 6px;
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: white;
+  font-size: 25px;
+  padding: 0 6px;
+}

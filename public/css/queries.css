@@ -1,0 +1,15 @@
+/* WIDTH:  880 to 768px */
+@media only screen and (max-width: 880px) {
+  .container {
+    width: 100%;
+
+  }
+}
+
+/* WIDTH: 481 to 767 */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+
+  }
+}

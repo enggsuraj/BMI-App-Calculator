@@ -24,7 +24,7 @@ let BMIMETHODstrings = {
   poundfeetinch: "pound/inch",
 };
 
-//HTML STRINGS 
+//HTML STRINGS
 let HTMLstrings = {
   feet_inch:
     '<input id ="weight" placeholder="Enter weight"><span> in pounds</span><br><br><select name="Feet" id="Feet"><option value="">Height in Feet</option><option value="1">1 Feet</option><option value="2">2 Feet</option><option value="3">3 Feet</option><option value="4">4 Feet</option><option value="5">5 Feet</option><option value="6">6 Feet</option><option value="7">7 Feet</option><option value="8">8 Feet</option></select> &nbsp; <select name="Inches" id="Inches"><option value="">Inches</option><option value="1">0 inch</option><option value="1">1 inch</option><option value="2">2 inch</option><option value="3">3 inch</option><option value="4">4 inch</option><option value="5">5 inch</option><option value="6">6 inch</option><option value="7">7 inch</option><option value="8">8 inch</option><option value="9">9 inch</option><option value="10">10 inch</option><option value="11">11 inch</option></select>',
@@ -92,5 +92,5 @@ export {
   getColor,
   DOMstrings,
   HTMLstrings,
-  BMIMETHODstrings
+  BMIMETHODstrings,
 };
